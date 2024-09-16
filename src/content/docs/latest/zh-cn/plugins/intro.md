@@ -124,30 +124,7 @@ curl http://exmaple.com/foo -H 'exmaple-key: 123'
 
 当 `matchRules` 中存在多个规则时，按规则排列顺序优先匹配，建议将 ingress 匹配配置放在 domain 匹配之前，这也是 Higress 控制台的做法。
 
-### 官方插件镜像地址
-
-| 插件名称 | 镜像地址 |
-| -------  | -------  | 
-| Key 认证 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/key-auth:1.0.0 |
-| Basic 认证 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/basic-auth:1.0.0 |
-| HMAC 认证 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/hmac-auth:1.0.0 |
-| JWT 认证 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/jwt-auth:1.0.0 |
-| 机器人拦截 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/bot-detect:1.0.0 |
-| 自定义应答 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/custom-response:1.0.0 |
-| 请求屏蔽 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/request-block:1.0.0 |
-| 基于 Key 限流 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/key-rate-limit:1.0.0 |
-| WAF 防护 | higress-registry.cn-hangzhou.cr.aliyuncs.com/plugins/waf:1.0.0  |
 
 ## Wasm 插件原理介绍
 
-### 什么是 Wasm 
-// TODO...
-
-### 插件生效流程
-// TODO...
-
-### 插件执行顺序编排
-// TODO...
-
-### Wasm 插件如何做到变更时流量无损
-// TODO...
+请查看电子书：[《Wasm插件开发篇》](https://higress.io/docs/ebook/wasm19/)
