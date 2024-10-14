@@ -18,12 +18,13 @@ description: Higress 维护者名单
 | 董艺荃 | [CH3CHO](https://github.com/CH3CHO) | 携程        |
 | 耿蕾蕾 | [gengleilei](https://github.com/gengleilei) | 阿里云        |
 | 张添翼 | [johnlanni](https://github.com/johnlanni) | 阿里云        |
-| 范扬 | [SpecialYang](https://github.com/SpecialYang) | 阿里云        |
+| 刘晓瑞 | [rinfx](https://github.com/rinfx) | 阿里云        |
 | 季敏 | [slievrly](https://github.com/slievrly) | 阿里云        |
 
 ## Higress Approvers
 | 姓名  | github                        | 公司组织             |
 |-----|-------------------------------| --------------- |
+| 范扬 | [SpecialYang](https://github.com/SpecialYang) | 字节跳动        |
 | 刘训灼 | [Xunzhuo](https://github.com/Xunzhuo) | 腾讯        |
 
 ## Higress Reviewers
@@ -31,7 +32,6 @@ description: Higress 维护者名单
 |-----|-------------------------------| --------------- |
 | 韩贤涛 | [hanxiantao](https://github.com/hanxiantao)         | 信也科技      |
 | 凌轶群 | [Lynskylate](https://github.com/Lynskylate) | eBay  |
-| 刘晓瑞 | [rinfx](https://github.com/rinfx) | 阿里云        |
 | 程治玮 | [Se7en](https://github.com/cr7258)   | SAP  |
 | 赵炳堃 | [sjtuzbk](https://github.com/sjtuzbk) | 阿里云        |
 | 韦鑫 | [WeixinX](https://github.com/weixinx) | 爱橙科技   |
@@ -49,7 +49,7 @@ description: Higress 维护者名单
 | 宋鹏远 | [songpengyuan](https://github.com/songpengyuan) | 小满科技 |
 | 彭万山 | [Uncle-Justice](https://github.com/Uncle-Justice) | 华中科技 |
 | 赵伟基 | [vikizhao156](https://github.com/vikizhao156)   | 上交     |
-
+| 邢云阳 | [xingyunyang01](https://github.com/xingyunyang01)   | 联通数科     |
 
 
 ## 获取Higress开发者头衔
@@ -68,7 +68,7 @@ description: Higress 维护者名单
 
 - 贡献代码（包含文档）DIFF 行数（包含增删）达到 500+
 
-> 不仅只有贡献代码，在Higress官网仓库(https://github.com/higress-group/higress-group.github.io)贡献文档，也可以满足此要求
+> 不仅只有贡献代码，在Higress官网仓库（[https://github.com/higress-group/higress-group.github.io](https://github.com/higress-group/higress-group.github.io)）贡献文档，也可以满足此要求
 
 - 在社区周会进行 1 次主题分享
 

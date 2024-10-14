@@ -6,14 +6,13 @@ import { getEntries } from "astro:content";
 
 // 吊顶提示文案
 export const TOPBAR = {
-    "text": "8月2日（周五）开源沙龙首个AI原生应用架构专场 | 上海站 ，欢迎报名！",
-    "mobileText": "8月2日（周五）开源沙龙首个AI原生应用架构专场 | 上海站 ，欢迎报名！",
-    "link": "https://summit.aliyun.com/cloudnative2024_developer_shanghai?spm=5176.20960838.0.0.7802305eyqMQf8",
+    "text": "云栖回顾 | 2024 云栖大会微服务和网关相关演讲材料",
+    "mobileText": "云栖回顾 | 2024 云栖大会微服务和网关相关演讲材料",
+    "link": "https://developer.aliyun.com/ebook/8379",
     "target": "_blank",
-    "display": false
+    "display": true
 }
 
-export const MEDIARESOURCE = null;
 
 // TODO: 配置algolia
 export const ALGOLIA = {
@@ -21,7 +20,6 @@ export const ALGOLIA = {
   apiKey: 'dc990c3b1509885bfe31b58063b60c51',
   indexName: 'higress'
 }
-
 // 文档根据版本区分的提示banner
 export const DOCS_BANNER = {
   latest: '',
@@ -29,7 +27,6 @@ export const DOCS_BANNER = {
   v1: '',
   v2: '',
 }
-
 // TODO: 文档Header数据
 export const DOCS_ITEM = [
   {
@@ -42,8 +39,9 @@ export const DOCS_ITEM = [
       link: "/en/docs/latest/overview/what-is-higress/",
     }
   },
-
 ];
+
+export const MEDIARESOURCE = null;
 
 // 主要特性
 export const CHOOSE_REASON_LIST: ChooseReason[] = [
@@ -509,31 +507,45 @@ export const getCloudPostpaidData = (t: Function) => [
     price: t("cloud.introduce.free.price"),
     priceDesc: [t("cloud.introduce.free.feature")],
     linkName: t("cloud.introduce.free.link"),
-    link: "https://www.aliyun.com/product/apigateway?spm=higress-website.topbar.0.0.0",
+    link: "https://free.aliyun.com/?spm=higress-website.topbar.0.0.0&searchKey=api%E7%BD%91%E5%85%B3",
     feature: [
-      t("cloud.introduce.free.discount.1"),
+      t("cloud.introduce.free.discount.3"),
     ],
   },
   {
-    title: t("cloud.introduce.regular.pkg"),
-    priceDesc: [t("cloud.introduce.regular.feature")],
-    price: '¥0.84',
-    priceSupply: t("cloud.introduce.regular.price_supply"),
-    linkName: t("cloud.introduce.regular.link"),
-    link: "https://www.aliyun.com/product/aliware/mse?spm=higress.cloud.topbar.0.0.0",
+    title: t("cloud.introduce.develop.pkg"),
+    priceDesc: [
+      t("cloud.introduce.regular.feature"),
+      t("cloud.introduce.regular.feature.5"),
+      t("cloud.introduce.regular.feature.6"),
+      t("cloud.introduce.regular.feature.7"),
+      t("cloud.introduce.regular.feature.8"),
+      t("cloud.introduce.regular.feature.9"),
+      t("cloud.introduce.regular.feature.10"),
+    ],
+    price: '¥0.826',
+    priceSupply: t("cloud.introduce.regular.price_supply.2"),
+    linkName: t("cloud.introduce.learn.link"),
+    link: "https://www.aliyun.com/product/apigateway?spm=higress.cloud.topbar.0.0.0",
     feature: [
-      t("cloud.introduce.regular.discount.1"),
+      t("cloud.introduce.free.discount.3"),
     ],
   },
   {
-    title: t("cloud.introduce.serverless.pkg"),
+    title: t("cloud.introduce.production.pkg"),
     priceDesc: [
       t('cloud.introduce.serverless.priceDesc'),
+      t('cloud.introduce.serverless.priceDesc.1'),
+      t('cloud.introduce.serverless.priceDesc.2'),
+      t('cloud.introduce.serverless.priceDesc.3'),
+      t('cloud.introduce.serverless.priceDesc.4'),
+      t('cloud.introduce.serverless.priceDesc.5'),
+      t('cloud.introduce.serverless.priceDesc.6'),
     ],
-    price: '¥0.135',
-    priceSupply: t('cloud.introduce.serverless.price_supply'),
-    linkName: t("cloud.introduce.regular.link"),
-    link: "https://www.aliyun.com/product/aliware/mse?spm=higress.cloud.topbar.0.0.0",
+    price: '¥1.935',
+    priceSupply: t("cloud.introduce.regular.price_supply.2"),
+    linkName: t("cloud.introduce.learn.link"),
+    link: "https://www.aliyun.com/product/apigateway?spm=higress.cloud.topbar.0.0.0",
     feature: [t('cloud.introduce.serverless.feature')],
   },
 ];
@@ -547,38 +559,37 @@ export const getCloudResourcePackData = (t: Function) => [
     unit: "",
     priceDesc: [t("cloud.introduce.free.feature")],
     linkName: t("cloud.introduce.free.link"),
-    link: "https://www.aliyun.com/product/apigateway?spm=higress-website.topbar.0.0.0",
+    link: "https://free.aliyun.com/?spm=higress-website.topbar.0.0.0&searchKey=api%E7%BD%91%E5%85%B3",
     feature: [
-      t("cloud.introduce.free.discount.1"),
+      t("cloud.introduce.free.discount.3"),
     ],
   },
   {
-    title: t("cloud.introduce.regular.pkg"),
+    title: t("cloud.introduce.develop.pkg"),
     priceDesc: [t("cloud.introduce.regular.feature")],
-    price: '¥422',
+    price: '¥249.6',
     priceSupply: t("cloud.introduce.regular.unit"),
-    priceDes: t('cloud.introduce.regular.des'),
-    linkName: t("cloud.introduce.regular.link"),
-    link: "https://www.aliyun.com/product/aliware/mse?spm=higress.cloud.topbar.0.0.0",
+    linkName: t("cloud.introduce.learn.link"),
+    link: "https://www.aliyun.com/product/apigateway?spm=higress.cloud.topbar.0.0.0",
     feature: [
       t("cloud.introduce.regular.discount.1"),
-      t("cloud.introduce.regular.feature.1"),
-      t("cloud.introduce.regular.feature.2"),
+      t("cloud.introduce.regular.feature.3"),
+      t("cloud.introduce.regular.feature.4"),
     ],
   },
   {
-    title: t("cloud.introduce.serverless.pkg"),
+    title: t("cloud.introduce.production.pkg"),
     priceDesc: [
       t('cloud.introduce.serverless.priceDesc'),
     ],
-    price: '¥92 ',
-    priceSupply: '元起',
-    linkName: t("cloud.introduce.regular.link"),
-    link: "https://www.aliyun.com/product/aliware/mse?spm=higress.cloud.topbar.0.0.0",
+    price: '¥585',
+    priceSupply: t("cloud.introduce.regular.unit"),
+    linkName: t("cloud.introduce.learn.link"),
+    link: "https://www.aliyun.com/product/apigateway?spm=higress.cloud.topbar.0.0.0",
     feature: [
       t('cloud.introduce.serverless.feature'),
-      t('cloud.introduce.serverless.feature.1'),
-      t('cloud.introduce.serverless.feature.2'),
+      t('cloud.introduce.serverless.feature.3'),
+      t('cloud.introduce.serverless.feature.4'),
     ],
   },
 ];

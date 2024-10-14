@@ -1,9 +1,11 @@
 ---
 id: "question-history-16997"
 title: "higress jar包部署详解"
-date: "2024-09-11"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "为了详细解答关于Higress及其jar包部署的问题，我们首先需要理解Higress的基本概念和它在微服务架构中的作用。遗憾的是，当前的我了解的知识库中并未直接提供关于Higress的具体信息。Higress这个名字并不像常见的技术术语如Spring Boot、Kubernetes等那样广为人知，因"
+tags: ["higress","jar包","部署","详解"]
+keywords: ["higress","jar包","部署","详解"]
 ---
 
 ## 用户问题 ： 
@@ -42,7 +44,7 @@ description: "为了详细解答关于Higress及其jar包部署的问题，我�
 - 如果Higress作为微服务的一部分，考虑将其部署在Kubernetes集群中，利用Service和Ingress资源进行负载均衡和路由配置。或者，在传统环境中，使用Nginx、HAProxy等作为反向代理。
 
 ### 解释
-上述步骤基于通用的Java应用部署流程，由于缺乏直接关于Higress的信息，这里提供了一个基础框架。实际操作时，务必参照Higress的官方文档（如果存在的话），以获取最准确的部署指导、特定配置要求以及任何预部署的必要准备步骤。如果有更多细节或特定的部署指南出现在我了解的知识中，我会根据那些信息进一步细化。
+上述步骤基于通用的Java应用部署流程，由于缺乏直接关于Higress的信息，这里提供了一个基础框架。实际操作时，务必参照Higress的官方文档（如果存在的话），以获取最准确的部署指导、特定配置要求以及任何预部署的必要准备步骤。如果有更多细节或特定的部署指南出现在我了解的知识中，我会根据那些信息进一步细化回答。
 
 请注意，虽然我尽力提供了一个通用的指导方案，但针对Higress的具体操作可能有所不同，特别是如果它包含了特定的技术实现或依赖特定的基础设施。
 
@@ -61,7 +63,12 @@ description: "为了详细解答关于Higress及其jar包部署的问题，我�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=17006)给我们反馈。
