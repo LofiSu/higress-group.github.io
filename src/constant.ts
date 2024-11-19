@@ -10,7 +10,7 @@ export const TOPBAR = {
     "mobileText": "上新｜统一多层网关架构系列视频课程",
     "link": "https://higress.cn/blog/higress-gvr7dx_awbbpb_ghwthc4xkdshgqgp/?source=blog",
     "target": "_blank",
-    "display": true
+    "display": false
 }
 
 
